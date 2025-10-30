@@ -1,0 +1,33 @@
+# CinematicWarp Plugin Configuration
+
+
+settings:
+ 
+  cooldown-time: 5
+  
+  
+  animation:
+   
+    prep-stage-duration: 10        
+    rise-stage-duration: 20        
+    movement-stage-duration: 30    
+    descent-stage-duration: 20     
+    
+    
+    camera-height-offset: 50
+    
+    
+    particles:
+      fade-out-count: 30
+      fade-in-count: 20
+      travel-interval: 5
+
+
+messages:
+  no-permission: "&cbu komutu kullanmak için yetkin yok"
+  only-players: "&cbu komutu oyuncu kullanabilir"
+  warp-created: "&aWarp '%warp%' oluşturuldu"
+  warp-not-found: "&c'%warp%' warp bulunamadı"
+  teleporting: "&a'%warp%' warpına gidiyosun"
+  cooldown: "&cwarp kullanmak için %seconds% saniye "
+  in-animation: "&cZaten ışınlanıyorsun!"

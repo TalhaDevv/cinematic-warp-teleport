@@ -1,0 +1,32 @@
+name: CinematicWarp
+version: '1.0-SNAPSHOT'
+main: net.talhadevv.cinematicwarp.CinematicWarp
+api-version: '1.21'
+description: 'Sinematik warp geçişi ve ölüm ekranı'
+author: 'https://github.com/TalhaDevv'
+
+commands:
+  setwarp:
+    description: 'warp oluştur'
+    usage: '/setwarp <isim>'
+    permission: warptesttp.set
+    permission-message: 'Bu komutu kullanmak için yetkin yok'
+  warp:
+    description: 'warpa ışınlan'
+    usage: '/warp <isim>'
+    permission: warptesttp.use
+    permission-message: 'Bu komutu kullanmak için yetkin yok'
+
+permissions:
+  warptesttp.*:
+    description: 'izin'
+    children:
+      warptesttp.set: true
+      warptesttp.use: true
+    default: op
+  warptesttp.set:
+    description: 'warp oluşturma yetki'
+    default: op
+  warptesttp.use:
+    description: 'warp kullanma yetki'
+    default: true
