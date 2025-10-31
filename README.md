@@ -1,6 +1,6 @@
 # CinematicWarp
 
-Minecraft için sinematik teleport efektleri içeren plugin.
+Minecraft için sinematik warp geçişi
 
 ## Özellikler
 
@@ -17,7 +17,7 @@ Minecraft için sinematik teleport efektleri içeren plugin.
 ## Komutlar
 
 - `/setwarp <isim>` - Warp noktası oluştur
-- `/warp <isim>` - Warp'a ışınlan
+- `/warp <isim>` - Warpa ışınlan
 - `/warp` - Warp listesi
 
 ## Gereksinimler
@@ -32,4 +32,5 @@ config.yml'den animasyon sürelerini ve efektleri değiştirebilirsin.
 
 ---
 
-**TalhaDevv** tarafından yapıldı
+
+
